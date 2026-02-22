@@ -16,7 +16,7 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
-  <dependencyManagement>
+  <!--dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.junit</groupId>
@@ -26,7 +26,7 @@
         <scope>import</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
+  </dependencyManagement-->
 
   <dependencies>
     
