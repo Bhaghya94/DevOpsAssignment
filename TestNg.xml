@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "SeleniumGrid" parallel="tests">
+
+	<test name = "ChromeTest">
+		<parameter name="bname" value="Chrome"></parameter>
+		<classes>
+			<class name = "com.SeleniumGrid.CrossBrowser_DockerTest"/>
+		</classes>
+	</test>
+	
+	<test name = "FirefoxTest">
+		<parameter name="bname" value="Firefox"></parameter>
+		<classes>
+			<class name = "com.SeleniumGrid.CrossBrowser_DockerTest"/>
+		</classes>
+	</test>
+	
+	<test name = "EdgeTest">
+		<parameter name="bname" value="Edge"></parameter>
+		<classes>
+			<class name = "com.SeleniumGrid.CrossBrowser_DockerTest"/>
+		</classes>
+	</test>
+
+</suite>
