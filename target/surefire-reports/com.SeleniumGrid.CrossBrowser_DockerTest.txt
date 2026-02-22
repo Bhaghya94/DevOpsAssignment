@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.SeleniumGrid.CrossBrowser_DockerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.209 s <<< FAILURE! -- in com.SeleniumGrid.CrossBrowser_DockerTest
-com.SeleniumGrid.CrossBrowser_DockerTest.crossBrowserTest -- Time elapsed: 0.817 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.056 s <<< FAILURE! -- in com.SeleniumGrid.CrossBrowser_DockerTest
+com.SeleniumGrid.CrossBrowser_DockerTest.crossBrowserTest -- Time elapsed: 0.712 s <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'bname' is required by @Test on method crossBrowserTest but has not been marked @Optional or defined
